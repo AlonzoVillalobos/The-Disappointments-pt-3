@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+          <a href="https://lexington.hcschoolstn.org/en-US" target="_blank"> <img class="logo" src="lhs logo.png"/></a>      
+            <nav>
+          <ul id="menuList">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/activities.html">Activities</a></li>
+            <li><a href="/curriculm.html">Curriculm</a></li>
+            <li><a href="/calendar.html">Event calendar</a></li>
+            <li><a href="/contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <img src="menu.png" class="menu-icon" onclick="togglemenu()" />
+      </div>
+      <br>
+      <br>
+      
+      <h1><center>Event Calendar</h1>
+      <br>
+      <h2><center>An Event Calendar allows <strong>events for JROTC<strong> to be organized into meaningful, descriptive groupings that help provide insights about a specific date and time.</h2>
+<br>
+<br>
+      <style>
+        body {
+          background-image: url("futuretec.png");
+          background-size: 1366px 665px;
+        }
+      </style>
+
+      <center>
+        <iframe
+          class="body"
+          src="https://calendar.google.com/calendar/u/0/embed?src=c_classroom0947f54e@group.calendar.google.com&ctz=America/Chicago"
+          style="border: 0;"
+          width="800"
+          height="600"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
+      </center>
+    <br>
+    <br>
+
+
+
+    <script>
+      var menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "150px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+  </body>
+</html>

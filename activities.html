@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activites Page</title>
+    <link rel="stylesheet" href="col_image.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+          <a href="https://lexington.hcschoolstn.org/en-US" target="_blank"> <img class="logo" src="lhs logo.png"/></a>      
+            <nav>
+          <ul id="menuList">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/activities.html">Activities</a></li>
+            <li><a href="/curriculm.html">Curriculm</a></li>
+            <li><a href="/calendar.html">Event calendar</a></li>
+            <li><a href="/contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <img src="menu.png" class="menu-icon" onclick="togglemenu()" />
+      </div>
+      
+
+
+
+  <h1><center>Activities</h1>
+    <br>
+      <br>
+      <br>
+      <center><h2>The LHS JROTC activities fosters a friendly and entertaing enviroment and provides cadets<br> an opprotunity to showcase their hours of dedication and skill.</h2>
+      <br>
+      <br>
+      <br>
+      <h3><i><strong>Click Images For Additional Info</strong></i></h3>
+    <div class="row">
+      <div class="column" >
+        <a href="act-1.html" ><img src="Saber Team cr.jpg"  style="width:100%; border: 3px solid #555" class="img-rounded" href="act-1.html" /></a>
+      </div>
+      <div class="column" >
+        <a href="act-2.html" ><img src="Drill Team.JPG"  style="width:100%; border: 3px solid #555" class="img-rounded" href="act-2.html" /></a>
+      </div>
+      <div class="column" >
+        <a href="act-3.html" ><img src="Color Guard 2.JPG" style="width:100%; border: 3px solid #555" class="img-rounded" href="act-3.html" /></a>
+      </div>
+    </div>
+<h1>-------------------------</h1>
+  <center><h3>The effects of the JROTC program/activties reach far beyond the classroom and into the community<br> in developing character, leadership, and civic responsibility in tens of thousands of Amercian children.<br><br>JROTC at its essence is a character education progam. The program keeps students in school, helps them find their<br> way during the turbulent teenage years, and assists them in becoming productive memebers of their community.<br><br>The LHS JROTC program provides young men and women who are ready to accept the responsibilities of bettering their community.<br><br>In only one year the entire core of LHS JROTC completed over 1,000 hours of community service.</h3>
+    <br>
+    <br>
+    <script>
+      var menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "150px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+  </body>
+</html>

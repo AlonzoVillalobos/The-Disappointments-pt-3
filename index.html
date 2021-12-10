@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="index.js" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+          <a href="https://lexington.hcschoolstn.org/en-US" target="_blank"> <img class="logo" src="lhs logo.png"/></a>      
+            <nav>
+          <ul id="menuList">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/activities.html">Activities</a></li>
+            <li><a href="/curriculm.html">Curriculm</a></li>
+            <li><a href="/calendar.html">Event calendar</a></li>
+            <li><a href="/contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <img src="menu.png" class="menu-icon" onclick="togglemenu()" />
+      </div>
+    <br>
+    <br>
+    <br>
+    <h1><center>LHS JROTC 2021-2022</h1>
+      <br>
+      <h3><center>JROTC is a high school elective program whose mission is to teach<br> students citizenship, leadership, team building skills, and character.</h3>
+        <br>
+    
+    <body>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="Shoe Shining.JPG" style="width: 100%; border: 5px solid #555" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="Nashville Predators Color Guard.JPG" style="width: 100%; border: 5px solid #555" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="Veterans Day Parade.JPG" style="width: 100%; border: 5px solid #555" />
+        </div>
+      </div>
+      <br>
+
+      <div style="text-align: center;">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <h2><center>AFJROTC Mission Statement</center></h2>
+    <br>
+      <p>
+        <center>
+          "To develop citizens of character dedicated to serving their nation
+          and community."
+        </center>
+      </p>
+      <div>
+        <br>
+      </div>
+      <h2><center>LHS AFJROTC</h2>
+        <br>
+      <p>
+        <center>AFJROTC is a 4-year program for high school students. The curriculum includes
+        Aerospace science(AS), Leadership Education(LE) and Wellness. The objective of the class is to motivate cadets to lead healthly, active lifestyles beyond program requirements and into their adult lives.
+      </p>
+<br>
+<p>----------</p>
+      <p>INSTUCTORS: Capt Kenneth W. Sullivan, Senior Aerospace Instructor SMSgt Benjamin Park, Aerospace Science Instructor</p> </br>
+      
+
+    <script>
+      var menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "150px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Contacts Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="contacts.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <div class="container">
+    <div class="navbar">
+        <a href="https://lexington.hcschoolstn.org/en-US" target="_blank"> <img class="logo" src="lhs logo.png"/></a>      
+          <nav>
+        <ul id="menuList">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/activities.html">Activities</a></li>
+          <li><a href="/curriculm.html">Curriculm</a></li>
+          <li><a href="/calendar.html">Event calendar</a></li>
+          <li><a href="/contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+      <img src="menu.png" class="menu-icon" onclick="togglemenu()" />
+    </div>
+  <body>
+
+      <center><h1 style="font-family: 'time new roman'">Contacts Page</h1> </center>
+      <br>
+      <br>
+      <br>
+
+
+    <!--Contact form start-->
+    <div class="contact-section">
+      <div class="contact-info">
+        <div>
+          <i class="fas fa-map-marker-alt"></i>284 White St, Lexington, TN 38351, U.S.A</div>
+        <div><i class="fas fa-envelope"></i>park.benjamin@hcschoolstn.org</div>
+        <div><i class="fas fa-phone"></i>(731) 968-2961</div>
+        <div><i class="fas fa-clock"></i>Mon-Fri, 7:45AM to 2:45PM</div>
+      </div>
+      <div class="contact-form">
+        <h2>Contact US</h2>
+
+        <form
+          class="contact"
+          action="https://formsubmit.co/alonzovillalobos65@gmail.com"
+          method="post"
+        >
+          <input
+            type="text"
+            name="name"
+            class="text-box"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="text"
+            name="email"
+            class="text-box"
+            placeholder="Your Email Address"
+            required
+          />
+          <textarea
+            name="message"
+            rows="8"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" name="submit" class="send-btn" value="send" />
+        </form>
+      </div>
+    </div>
+    <!--Contact form end-->
+  </body>
+</html>
+
+
+    <script>
+      var menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "150px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+<style type="text/css">
+.nobull{
+  list-style-type:none;
+}
+
+
+  </style>
+</div>
+<br>
+<br>
+<br>
+  </body>
+</html>
