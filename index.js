@@ -1,4 +1,3 @@
-import "./styles.css";
 
 var slideIndex = 0;
 showSlides();
