@@ -1,1 +1,2 @@
 # The-Disappointments-pt-3
+Kaleb Grosstick - contributed on layout and documentation of the curriculum page, Tamia Trevino created and participated on the coding of Calendar page, along with incorporating events and dates.   Victor Villalobos coded and layout of website, directed team members, incorporated design choices by team members, assisted and guided team member of responsibilities, and meeting timelines.  The team worked together to overcome obstacles involved with the layout process.  
